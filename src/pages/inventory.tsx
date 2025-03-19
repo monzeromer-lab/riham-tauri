@@ -54,12 +54,12 @@ const formSchema = z.object({
 
 // Sample inventory data for seeding
 const sampleInventory = [
-  { type: "T-Shirt", color: "Black", size: "M", quantity: 25, price: 19.99 },
-  { type: "T-Shirt", color: "White", size: "L", quantity: 30, price: 19.99 },
-  { type: "Jeans", color: "Blue", size: "32", quantity: 15, price: 49.99 },
-  { type: "Hoodie", color: "Gray", size: "XL", quantity: 10, price: 39.99 },
-  { type: "Dress", color: "Red", size: "S", quantity: 8, price: 59.99 },
-  { type: "Jacket", color: "Brown", size: "M", quantity: 5, price: 89.99 },
+  { type: "Plastic Tank", color: "Blue", size: "500L", quantity: 15, price: 99.99 },
+  { type: "Plastic Tank", color: "Black", size: "1000L", quantity: 10, price: 149.99 },
+  { type: "Steel Tank", color: "Silver", size: "2000L", quantity: 5, price: 299.99 },
+  { type: "Underground Tank", color: "Green", size: "5000L", quantity: 3, price: 599.99 },
+  { type: "Slim Tank", color: "White", size: "300L", quantity: 20, price: 79.99 },
+  { type: "Cylindrical Tank", color: "Gray", size: "750L", quantity: 8, price: 129.99 },
 ];
 
 export function Inventory() {
